@@ -21,7 +21,7 @@ export default function Menu({ onStartGame }: MenuProps) {
       <div id="bg-menu" className="bg-full"></div>
       <div id="overlay"></div>
 
-      <button className="btn-corner btn-handbook" onClick={() => alert('Cẩm nang sẽ sớm ra mắt!')}>
+      {/* <button className="btn-corner btn-handbook" onClick={() => alert('Cẩm nang sẽ sớm ra mắt!')}>
         📖 CẨM NANG
       </button>
       <button className="btn-corner btn-settings" onClick={() => alert('Cài đặt đang xây dựng')}>
@@ -29,7 +29,7 @@ export default function Menu({ onStartGame }: MenuProps) {
       </button>
       <button className="btn-corner btn-trophy" onClick={() => alert('Thành tích đang xây dựng')}>
         🏆 THÀNH TÍCH
-      </button>
+      </button> */}
 
       <div id="wrap">
         <h1 className="main-title">THẾ GIỚI<br />NHÀ NƯỚC VÀ AI TRONG TƯƠNG LAI</h1>
